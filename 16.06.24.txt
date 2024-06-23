@@ -1,0 +1,9 @@
+1) Use lombok in Notebook.
+
+2) Даны два домена Truck(id, model, modelYear) и
+Driver(id, firstName, lastName, age, qualification(Enum), List<Truck>).
+Создать OneToMany отношение, а также CRUD(findAll) операции, показывать все trucks для конкретного Driver.
+
+3) https://www.baeldung.com/java-dao-pattern
+
+Normalization, DAO

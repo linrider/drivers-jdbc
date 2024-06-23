@@ -7,12 +7,13 @@ public interface CrudDAO<T> {
     void save(T t);
 
     void setTruckToDriverById(int driverId, int truckId);
+    
+    T findById(int id);
 
 //    void update(T t);
 //
 //    void deleteById(int id);
-    //TODO
-//    T findById(int id);
+   
 
 //    List<T> findAll();
 }

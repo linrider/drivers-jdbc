@@ -21,6 +21,21 @@ public class TruckServiceImpl implements CrudService<Truck> {
         truckDAO.save(truck);
     }
 
+
+    @Override
+    public void setTruckToDriverById(int driverId, int truckId) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setTruckToDriverById'");
+    }
+
+
+    @Override
+    public Truck findById(int id) {
+        return truckDAO.findById(id);
+    }
+
+    
+
 //    @Override
 //    public void update(Truck truck) {
 //        truckDAO.update(truck);
